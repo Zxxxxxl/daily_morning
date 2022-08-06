@@ -80,8 +80,10 @@ data = {
                      "color": get_random_color()},
     "love365_days": {"value": get_Love365(),
                      "color": get_random_color()},
-    "goh": {"value": get_gthz()},
-    "birthday_left": {"value": get_birthday()},
+    "goh": {"value": get_gthz(),
+            "color": get_random_color()},
+    "birthday_left": {"value": get_birthday(),
+                      "color": get_random_color()},
     "words": {"value": get_words(),
               "color": get_random_color()}}
 res = wm.send_template(user_id, template_id, data)
