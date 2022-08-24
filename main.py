@@ -75,7 +75,7 @@ data = {
     "weather": {"value": wea},
     "temperature": {"value": temperature},
     "love_days": {"value": get_count()},
-    "love100_days": {"value": get_Love200()},
+    "love200_days": {"value": get_Love200()},
     "love365_days": {"value": get_Love365()},
     "goh": {"value": get_gthz()},
     "birthday_left": {"value": get_birthday()},
