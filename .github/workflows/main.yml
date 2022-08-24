@@ -28,7 +28,7 @@ jobs:
       TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
       USER_ID: ${{ secrets.USER_ID }}
       LOVE_DATE: ${{ secrets.LOVE_DATE }}
-      LOVE100_DATE: ${{ secrets.LOVE100_DATE }}
+      LOVE200_DATE: ${{ secrets.LOVE200_DATE }}
       LOVE365_DATE: ${{ secrets.LOVE365_DATE }}
       GOH_DATE: ${{ secrets.GOH_DATE }}
       BIRTHDAY: ${{ secrets.BIRTHDAY }}
