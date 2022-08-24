@@ -34,7 +34,7 @@ def get_count():
     return delta.days
 
 
-def get_Love100():
+def get_Love200():
     delta = datetime.strptime(love100_date, "%Y-%m-%d") - today
     return delta.days
 
@@ -75,7 +75,7 @@ data = {
     "weather": {"value": wea},
     "temperature": {"value": temperature},
     "love_days": {"value": get_count()},
-    "love100_days": {"value": get_Love100()},
+    "love100_days": {"value": get_Love200()},
     "love365_days": {"value": get_Love365()},
     "goh": {"value": get_gthz()},
     "birthday_left": {"value": get_birthday()},
