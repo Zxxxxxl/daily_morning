@@ -9,7 +9,7 @@ import random
 today = datetime.now()
 love_date = os.environ['LOVE_DATE']  # 相恋日
 goh_date = os.environ['GOH_DATE']  # 相恋日
-love100_date = os.environ['LOVE100_DATE']  # 恋爱100天
+love200_date = os.environ['LOVE200_DATE']  # 恋爱200天
 love365_date = os.environ['LOVE365_DATE']  # 恋爱一周年
 
 city = os.environ['CITY']
@@ -35,7 +35,7 @@ def get_count():
 
 
 def get_Love200():
-    delta = datetime.strptime(love100_date, "%Y-%m-%d") - today
+    delta = datetime.strptime(love200_date, "%Y-%m-%d") - today
     return delta.days
 
 
